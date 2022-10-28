@@ -13,7 +13,7 @@ h1{
     background-color: #5a252d;
     display: flex;
     justify-content: right;
-    
+    object-fit: cover;
 }
 
 .nav_bar a{
@@ -23,7 +23,7 @@ h1{
 }
 
 .nav_bar a:hover{
-    background-color: #b76e79;
+    background-color: #bb5464;
     color:gold;
-    /* text-decoration:; */
+    text-decoration: underline;
 }
