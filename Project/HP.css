@@ -27,3 +27,7 @@ h1{
     color:gold;
     text-decoration: underline;
 }
+
+@media screen and (max-width:768px){
+    
+}
