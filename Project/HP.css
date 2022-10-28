@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+}
+
+h1{
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 48px;
+    color:#b76e79;
+    text-align: center;
+}
+
+.nav_bar{
+    background-color: #5a252d;
+    display: flex;
+    justify-content: right;
+    
+}
+
+.nav_bar a{
+    padding:10px;
+    color:gold;
+    text-decoration: none;
+}
+
+.nav_bar a:hover{
+    background-color: #b76e79;
+    color:gold;
+    /* text-decoration:; */
+}
