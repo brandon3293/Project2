@@ -1,7 +1,9 @@
 body{
     background-color: black;
 }
-
+.nav_bar .dropdown{
+    display: none;
+}
 h1{
     font-family: 'Cedarville Cursive', cursive;
     font-size: 48px;
