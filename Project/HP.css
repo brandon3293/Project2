@@ -1,16 +1,16 @@
 body{
-    background-color: black;
+    background-color:#FFFDD0;
 }
 
 h1{
     font-family: 'Cedarville Cursive', cursive;
-    font-size: 48px;
+    font-size: 60px;
     color:#b76e79;
     text-align: center;
 }
 
 .nav_bar{
-    background-color: #5a252d;
+    background-color: #b76e79;
     display: flex;
     justify-content: right;
     object-fit: cover;
@@ -36,13 +36,47 @@ h1{
 .homeImg{
     display: flex;
     justify-content: center;
-    padding:20px;
+    padding:15px;
     
 }
 #salon{
     width:100%;
     object-fit: cover;
 }
+
+
+
+.info{
+    padding:20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows:repeat(2, 1fr);
+}
+.info #AboutThem{
+    grid-column: span 2;
+    grid-row: span 2;
+    
+}
+
+#persona{
+    width:50%;
+    background-color:#b76e79;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+#persona img{
+    height:250px;
+}
+.name{
+    text-align: center;
+}
+
+#directions{
+   line-height: 50px;
+}
+
+
+
 
 
 
@@ -63,7 +97,7 @@ h1{
     .dropdown .menu{
         display: none;
         position: absolute;
-        background-color: gold;
+        background-color: #FFFDD0;
         min-width: 160px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1;
@@ -71,6 +105,7 @@ h1{
     
     .menu a{
         padding: 12px 16px;
+        color:#bb5464;
         text-decoration: none;
         display: block;
         text-align:center;
@@ -81,10 +116,10 @@ h1{
     }
     .btn{
     
-        border-radius:10px;
-        background-color: gold;
+        border-radius: 10px;
+        background-color: rgb(138, 20, 20);
         font-size: 25px;
-        color:#b76e79;
+        color:#FFFDD0;
     }
 
 }
